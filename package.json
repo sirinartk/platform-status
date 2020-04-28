@@ -43,7 +43,7 @@
     "gulp-replace": "^0.6.1",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
-    "handlebars": "^4.0.3",
+    "handlebars": "^4.6.0",
     "lodash.debounce": "^4.0.8",
     "lunr": "1.0.0",
     "markdown-it": "^8.4.0",
