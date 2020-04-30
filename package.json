@@ -62,7 +62,8 @@
     "slugify": "^1.2.6",
     "source-map-support": "^0.5.0",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai-http": "^3.0.0",
@@ -78,7 +79,9 @@
     "start": "gulp watch",
     "test": "npm run lint && REDIS_INDEX=5 npm run build && REDIS_INDEX=5 intern-client config=tests/config/intern-node",
     "testNode": "npm run lint && REDIS_INDEX=5 intern-client config=tests/config/intern-node",
-    "update-browser-logos": "npm i alrra/browser-logos && cp node_modules/browser-logos/*/{chrome,edge,firefox,firefox-beta,firefox-developer-edition,firefox-nightly,opera,safari-technology-preview}_64x64.png src/images/browsers/"
+    "update-browser-logos": "npm i alrra/browser-logos && cp node_modules/browser-logos/*/{chrome,edge,firefox,firefox-beta,firefox-developer-edition,firefox-nightly,opera,safari-technology-preview}_64x64.png src/images/browsers/",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -96,5 +99,6 @@
   "bugs": {
     "url": "https://github.com/mozilla/platform-status/issues"
   },
-  "homepage": "https://github.com/mozilla/platform-status#readme"
+  "homepage": "https://github.com/mozilla/platform-status#readme",
+  "snyk": true
 }
