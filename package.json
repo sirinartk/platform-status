@@ -47,7 +47,7 @@
     "lodash.debounce": "^4.0.8",
     "lunr": "1.0.0",
     "markdown-it": "^8.4.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.2",
     "mozilla-tabzilla": "^0.5.1",
     "newrelic": "^2.4.1",
     "node-fetch": "^1.6.0",
