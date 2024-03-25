@@ -46,7 +46,7 @@
     "handlebars": "^4.0.3",
     "lodash.debounce": "^4.0.8",
     "lunr": "1.0.0",
-    "markdown-it": "^8.4.0",
+    "markdown-it": "^13.0.2",
     "mkdirp": "^0.5.1",
     "mozilla-tabzilla": "^0.5.1",
     "newrelic": "^2.4.1",
