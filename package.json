@@ -30,7 +30,7 @@
     "file-exists": "^5.0.0",
     "glob": "^7.0.6",
     "gray-matter": "^3.1.1",
-    "gulp": "^3.9.0",
+    "gulp": "^5.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.0",
